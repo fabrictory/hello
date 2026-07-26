@@ -60,6 +60,9 @@
   .grid{display:grid;gap:18px}
   .g3{grid-template-columns:repeat(3,1fr)}
   @media(max-width:760px){.g3{grid-template-columns:1fr}}
+  .g2{grid-template-columns:1fr 1fr}
+  @media(max-width:760px){.g2{grid-template-columns:1fr}}
+  .tagpill{background:#fff;border:1px solid var(--line);border-radius:40px;padding:8px 16px;font-weight:700;font-size:13.5px;color:var(--ink)}
   .card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:26px}
   .soft{background:var(--soft);border:none}
   .badge{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;color:#fff;
@@ -125,9 +128,9 @@
   <div class="wrap nav">
     <div class="brand">MAKE_ <b>THE WORLD</b> EXPO</div>
     <div class="navlinks">
-      <a href="#about">소개</a><a href="#concept">컨셉</a><a href="#method">교육법</a>
-      <a href="#zones">3개 존</a><a href="#workshop">워크샵</a><a href="#expo">박람회</a>
-      <a href="#schedule">일정</a><a href="#staff">스텝</a>
+      <a href="#brand">패브릭토리</a><a href="#about">캠프 소개</a><a href="#concept">컨셉</a>
+      <a href="#method">교육법</a><a href="#zones">3개 존</a><a href="#workshop">워크샵</a>
+      <a href="#expo">박람회</a><a href="#schedule">일정</a><a href="#staff">스텝</a>
     </div>
   </div>
 </nav>
@@ -156,6 +159,28 @@
     </div>
   </div>
 </header>
+
+<!-- BRAND -->
+<section id="brand" class="tint-cream">
+  <div class="wrap">
+    <div class="eyebrow"><span class="dot" style="background:var(--green)"></span><span class="kick" style="color:var(--green)">패브릭토리 · 감성지능 스토리랩</span></div>
+    <h2 style="margin-top:10px">스토리로 단단한 내면을 디자인합니다</h2>
+    <p class="lead" style="max-width:880px">패브릭토리는 스토리를 매개로 아이들, 그리고 아이들과 함께 살아가는 모두를 위해 <b>단단한 내면을 디자인하는 정서지능(감성지능) 교육 &amp; 콘텐츠 개발 전문 브랜드</b>입니다.</p>
+    <div class="grid g2 reveal" style="margin-top:26px">
+      <div class="card"><p style="color:#3b4252">비에 약한 종이보다 더 단단해지는 패브릭처럼, 우리는 감정·관계·경험을 엮어 아이와 어른, 세대와 세대를 잇는 <b>‘안전한 연결의 플랫폼’</b>을 만듭니다.</p></div>
+      <div class="card"><p style="color:#3b4252">아이들이 관계 속에서 자신의 이유와 가능성을 발견하도록 돕는 정서지능 기반 콘텐츠·교육 프로그램, 그리고 이야기를 중심으로 한 다양한 프로젝트를 기획합니다.</p></div>
+    </div>
+    <div style="margin-top:22px;font-family:Arial,Helvetica,sans-serif;font-weight:800;letter-spacing:.03em;color:var(--pinkd)">Weaving The Story&nbsp;&nbsp;|&nbsp;&nbsp;@Fabrictory</div>
+    <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:16px">
+      <span class="tagpill">SEL 정서지능 교육 콘텐츠 개발</span>
+      <span class="tagpill">교사 양성</span>
+      <span class="tagpill">콘텐츠 가맹점 운영 연결</span>
+      <span class="tagpill">비즈니스 출강</span>
+      <span class="tagpill">프로그램 기획</span>
+      <span class="tagpill">문화기획 행사</span>
+    </div>
+  </div>
+</section>
 
 <!-- ABOUT -->
 <section id="about">
