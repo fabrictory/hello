@@ -86,12 +86,12 @@
   @media(max-width:900px){.makes{grid-template-columns:repeat(2,1fr)}}
   .make{background:var(--soft);border-radius:14px;padding:14px;text-align:center}
   .make svg{width:100%;height:auto;border-radius:10px;display:block;background:#fff;border:1px solid var(--line)}
-  .make h4{margin-top:12px;font-size:16px}
+  .make h4{margin-top:12px;font-size:16px;color:var(--ink)}
   .make p{color:var(--mute);font-size:12px;margin-top:3px}
   /* relay */
   .relay{display:grid;gap:10px}
   .relay .row{display:grid;grid-template-columns:52px 1fr;gap:14px;align-items:center;
-    background:var(--soft);border-radius:12px;padding:12px 16px}
+    background:var(--soft);border-radius:12px;padding:12px 16px;color:var(--ink)}
   .relay .q{font-style:italic}
   .relay .role{font-weight:800}
   .relay .tag{font-family:Arial;font-weight:800;font-size:12px}
@@ -356,15 +356,13 @@
   <div class="wrap">
     <div class="eyebrow"><span class="dot" style="background:var(--pinkd)"></span><span class="kick" style="color:var(--pinkd)">For Visitors</span></div>
     <h2 style="margin-top:10px">박람회에서 이렇게 함께해 주세요</h2>
-    <p class="lead">학부모·선생님·친구 모두 환영합니다. 아이들이 만든 부스를 둘러보고, 마음이 전해진 팀에 투표해 주세요.</p>
-    <div class="grid g3 reveal" style="margin-top:28px">
-      <div class="card"><div class="badge" style="background:var(--blue)">1</div><h3 style="margin:14px 0 6px">둘러보기</h3><p style="color:var(--mute)">나 · 우리 · 세상 세 존의 부스를 자유롭게 둘러봐요.</p></div>
-      <div class="card"><div class="badge" style="background:var(--green)">2</div><h3 style="margin:14px 0 6px">소개 듣기</h3><p style="color:var(--mute)">각 팀이 들려주는 '다섯 문장 릴레이' 소개를 들어봐요.</p></div>
-      <div class="card"><div class="badge" style="background:var(--pink);color:var(--ink)">3</div><h3 style="margin:14px 0 6px">투표하기</h3><p style="color:var(--mute)">마음이 전해진 부스에 투표해 주세요. 점수를 모아 시상해요.</p></div>
+    <p class="lead">학부모·선생님·친구 모두 환영합니다. 아이들이 만든 부스를 둘러보고, 각 팀이 들려주는 이야기에 귀 기울여 주세요.</p>
+    <div class="grid g2 reveal" style="margin-top:28px">
+      <div class="card"><div class="badge" style="background:var(--blue)">1</div><h3 style="margin:14px 0 6px">둘러보기</h3><p style="color:var(--mute)">나 · 우리 · 세상 세 존의 부스를 자유롭게 둘러봐요. 아이들이 발견한 '작은 필요'가 담겨 있어요.</p></div>
+      <div class="card"><div class="badge" style="background:var(--green)">2</div><h3 style="margin:14px 0 6px">이야기 듣기</h3><p style="color:var(--mute)">각 팀이 들려주는 '다섯 문장 릴레이' 소개에 귀 기울이고, 따뜻한 응원을 건네 주세요.</p></div>
     </div>
-    <div class="card" style="background:var(--ink);color:#fff;margin-top:20px">
-      <b style="color:var(--yel)">아이들이 얻는 것</b>
-      <span style="margin-left:8px">내 감정과 주변을 살피는 눈, 작은 필요를 지나치지 않는 마음, 그리고 '내 손으로 도움을 만들어 냈다'는 자신감.</span>
+    <div class="card" style="background:var(--ink);color:#fff;margin-top:20px;text-align:center;padding:34px">
+      <p style="font-size:clamp(18px,2.4vw,24px);font-weight:800;line-height:1.4"><span style="color:var(--yel)">당신도 '세상을 만드는 사람'입니다.</span><br>오늘 이 부스들을 지나며, 내 곁의 작은 필요 하나를 발견하고<br>어떻게 채워 줄 수 있을지 함께 떠올려 보세요.</p>
     </div>
   </div>
 </section>
